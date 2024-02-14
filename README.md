@@ -134,7 +134,7 @@ Register Number: 212222110007
     
 ### OUTPUT:
 
-<img src="![Screenshot 2024-02-14 215808](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/454ced9b-7c97-41e7-b6b4-b35ee60564e9)
+![Screenshot 2024-02-14 215808](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/454ced9b-7c97-41e7-b6b4-b35ee60564e9)
 ">
   </td>
   </tr>
