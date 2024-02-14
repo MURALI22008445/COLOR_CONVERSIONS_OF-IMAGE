@@ -48,7 +48,7 @@ Register Number: 212222110007
 
 ### OUTPUT:
 
- <img src="![Screenshot 2024-02-14 215434](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/14a80254-d30a-4c2d-9b20-b54d24bb3896)">
+![Screenshot 2024-02-14 215434](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/14a80254-d30a-4c2d-9b20-b54d24bb3896)
   </td>
   </tr>
 
@@ -66,8 +66,8 @@ Register Number: 212222110007
 
 ### OUTPUT:
 
-<img src="![Screenshot 2024-02-14 221949](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/5cb8fb8c-94c6-4824-a937-20133d07fd3b)
-">
+![Screenshot 2024-02-14 221949](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/5cb8fb8c-94c6-4824-a937-20133d07fd3b)
+
   </td>
   </tr>
   <tr>
@@ -83,8 +83,8 @@ Register Number: 212222110007
   <td>
 
 ### OUTPUT:
-<img src="![Screenshot 2024-02-14 221959](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/01a1a274-5397-40b2-92cc-12f0461efdcb)
-">
+![Screenshot 2024-02-14 221959](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/01a1a274-5397-40b2-92cc-12f0461efdcb)
+
   </td>
   </tr>
   <tr>
@@ -110,8 +110,8 @@ Register Number: 212222110007
 
 ### OUTPUT:
 
- <img src="![Screenshot 2024-02-14 215632](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/9713ec6a-cf5c-4ce6-ab4d-6bee498c55d9)
-">
+![Screenshot 2024-02-14 215632](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/9713ec6a-cf5c-4ce6-ab4d-6bee498c55d9)
+
   </td>
   </tr>
   <tr>
@@ -135,7 +135,7 @@ Register Number: 212222110007
 ### OUTPUT:
 
 ![Screenshot 2024-02-14 215808](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/454ced9b-7c97-41e7-b6b4-b35ee60564e9)
-">
+
   </td>
   </tr>
 </table>
