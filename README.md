@@ -37,9 +37,9 @@ Register Number: 212222230007
 ### i) Read and display the image
 ```Python
     import cv2
-    image=cv2.imread('dict.jpg',1)
+    image=cv2.imread('dipt1.jpg',1)
     image=cv2.resize(image,(400,300))
-    cv2.imshow('Adhithya Perumal D',image)
+    cv2.imshow('ADHITHYA PERUMAL D',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ``` 
@@ -48,7 +48,7 @@ Register Number: 212222230007
 
 ### OUTPUT:
 
-![Screenshot 2024-02-22 012924](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/0c5e4403-3ec0-457c-9853-01477e7ca538)
+![Screenshot 2024-02-23 083710](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/57b30bba-72f7-4a90-8d8d-a8792c09332e)
   </td>
   </tr>
 
@@ -58,7 +58,7 @@ Register Number: 212222230007
 ### ii)Write the image
 ```Python
     import cv2
-    image=cv2.imread('dict.jpg',0)
+    image=cv2.imread('dipt1.jpg',0)
     cv2.imwrite('demos.jpg',image)
 ```
   </td>
@@ -66,7 +66,7 @@ Register Number: 212222230007
 
 ### OUTPUT:
 
-![Screenshot 2024-02-14 221949](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/5cb8fb8c-94c6-4824-a937-20133d07fd3b)
+![Screenshot 2024-02-23 091244](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/379f8574-d4ae-4b97-abd6-44cd836406f4)
 
   </td>
   </tr>
@@ -83,7 +83,7 @@ Register Number: 212222230007
   <td>
 
 ### OUTPUT:
-![Screenshot 2024-02-14 221959](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/01a1a274-5397-40b2-92cc-12f0461efdcb)
+![Screenshot 2024-02-23 091516](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/bb67af01-fbb9-4d0c-9dd9-ac291d63c658)
 
   </td>
   </tr>
@@ -92,9 +92,9 @@ Register Number: 212222230007
       
 ### iv)Access rows and columns
 ```Python
-    import random
+     import random
     import cv2
-    image=cv2.imread('dict.jpg',1)
+    image=cv2.imread('dipt1.jpg',1)
     image=cv2.resize(image,(400,400))
     for i in range (150,200):
       for j in range(image.shape[1]):
@@ -110,7 +110,7 @@ Register Number: 212222230007
 
 ### OUTPUT:
 
-![Screenshot 2024-02-14 215632](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/9713ec6a-cf5c-4ce6-ab4d-6bee498c55d9)
+![Screenshot 2024-02-23 084102](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/59308692-83b3-4f2b-a9a1-480b6836f567)
 
   </td>
   </tr>
@@ -121,20 +121,20 @@ Register Number: 212222230007
 
  ```Python
     import cv2
-    image=cv2.imread('dict.jpg',1)
-    image=cv2.resize(image,(400,400))
-    tag =image[130:200,110:190]
-    image[110:180,120:200] = tag
-    cv2.imshow('partimage1',image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+   image=cv2.imread('dipt1.jpg',1)
+   image=cv2.resize(image,(400,400))
+   tag =image[130:200,110:190]
+   image[110:180,120:200] = tag
+   cv2.imshow('partimage1',image)
+   cv2.waitKey(0)
+   cv2.destroyAllWindows()
 ```
   </td>
   <td>
     
 ### OUTPUT:
 
-![Screenshot 2024-02-14 215808](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/454ced9b-7c97-41e7-b6b4-b35ee60564e9)
+![Screenshot 2024-02-23 084222](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/15da7645-5672-487e-8fbe-984ca6bfd9bd)
 
   </td>
   </tr>
@@ -143,7 +143,7 @@ Register Number: 212222230007
 ### vi) BGR and RGB to HSV and GRAY
 ```Python
 import cv2
-img = cv2.imread('dict.jpg',1)
+img = cv2.imread('dipt1.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -159,17 +159,18 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![Screenshot 2024-02-14 220108](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/974ea182-d59d-42f4-a279-2850dc2d1afb)
-![Screenshot 2024-02-14 220148](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/911ebdd4-e022-4027-af9b-179ec45d5b15)
-![Screenshot 2024-02-14 220124](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/240fd1d9-efc7-498e-8b52-c5a8c3906423)
-![Screenshot 2024-02-14 220202](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/1bcf3378-c956-4616-b4dc-0f51c44e74a3)
-![Screenshot 2024-02-14 220314](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/69216136-c0b6-4446-a913-b8968b754eb0)
+![Screenshot 2024-02-23 084608](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/16208cee-19e7-4594-bdfa-5b06890fb8c2)
+![Screenshot 2024-02-23 084628](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/599ffe97-ee92-4e29-ad0e-8e9f5511791a)
+![Screenshot 2024-02-23 084652](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/05aa0768-5f21-4eca-a117-b62cdd91d655)
+![Screenshot 2024-02-23 084811](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/f4b2d14b-80fa-4f98-b210-1c62a0de1ccc)
+![Screenshot 2024-02-23 084845](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/0cb2173e-1597-41be-bcc7-b6bce1c44c62)
+
 
 
 ### vii) HSV to RGB and BGR
 ```Python
 import cv2
-img = cv2.imread('dict.jpg')
+img = cv2.imread('dipt1.jpg')
 img = cv2.resize(img,(300,200))
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 cv2.imshow('Original HSV Image',img)
@@ -182,15 +183,15 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![Screenshot 2024-02-14 220548](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/dfef27a9-6079-4940-b452-5be127a51925)
-![Screenshot 2024-02-14 220600](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/1d79530b-c5f4-47b8-a471-4c399cffc7ab)
-![Screenshot 2024-02-14 220606](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/c0d1d7c3-9c91-4113-8aed-844e3c0bd7b7)
+![Screenshot 2024-02-23 085017](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/0712c22e-318f-49fd-a956-e035ce6ecedb)
+![Screenshot 2024-02-23 085039](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/0907c3a8-f581-45d7-9230-c6d3e032ae2f)
+![Screenshot 2024-02-23 092944](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/184260e7-2404-46a5-90e4-71a5d388217b)
 
 
 ### viii) RGB and BGR to YCrCb
 ```Python
 import cv2
-img = cv2.imread('dict.jpg')
+img = cv2.imread('dipt1.jpg')
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
@@ -202,15 +203,15 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![Screenshot 2024-02-14 220708](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/ed22d2d8-3c81-43d3-8146-54344ec5b53d)
-![Screenshot 2024-02-14 220718](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/9f1518b4-290e-4c79-92ef-d137720f9113)
-![Screenshot 2024-02-14 220726](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/bed29a97-9011-448f-8106-0c65c55b2660)
+![Screenshot 2024-02-23 085332](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/6fa30ea6-b8b9-44ab-83d6-edaa74ff973c)
+![Screenshot 2024-02-23 085353](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/b11bac11-69f7-4b11-90ac-16c3f2d6c259)
+![Screenshot 2024-02-23 085410](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/057b941a-79c3-44dc-a044-7d971e0992d7)
 
 
 ### ix) Split and merge RGB Image
 ```Python
 import cv2
-img = cv2.imread('dict.jpg',1)
+img = cv2.imread('dipt1.jpg',1)
 img = cv2.resize(img,(300,200))
 R = img[:,:,2]
 G = img[:,:,1]
@@ -222,20 +223,21 @@ merged = cv2.merge((B,G,R))
 cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![Screenshot 2024-02-14 220808](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/ca007597-44df-4475-9e73-6ffc05cf045a)
-![Screenshot 2024-02-14 220819](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/abecf7c3-a618-41b9-a063-9b83996847ea)
-![Screenshot 2024-02-14 220828](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/287d17f0-1958-4ae1-8857-b7395809cbaf)
-![Screenshot 2024-02-14 220837](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/fb5213a8-a084-4132-bce1-7fef7a6a7c7f)
+![Screenshot 2024-02-23 085554](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/2fc409d0-21c6-4e58-a3b0-167cec12a6aa)
+![Screenshot 2024-02-23 085619](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/e71bd410-cd12-45d9-92d1-5ff78a86d35f)
+![Screenshot 2024-02-23 085635](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/c9f546f9-174b-40d0-99b2-a89f0d4db81b)
+![Screenshot 2024-02-23 085717](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/3bf3d374-e4f9-448f-8231-10c153cb269f)
 
 
 
 ### x) Split and merge HSV Image
 ```Python
 import cv2
-img = cv2.imread("dict.jpg",1)
+img = cv2.imread("dipt1.jpg",1)
 img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 H,S,V=cv2.split(img)
@@ -249,10 +251,10 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![Screenshot 2024-02-14 220939](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/d6d720ed-ee74-461a-82c8-5d50274e2a7a)
-![Screenshot 2024-02-14 220947](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/9939f63c-2377-4d9d-9ca2-b1b65e49afa1)
-![Screenshot 2024-02-14 220954](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/e5cfe648-6e58-45c2-a133-630263946496)
-![Screenshot 2024-02-14 221004](https://github.com/DEVADARSHAN2/COLOR_CONVERSIONS_OF-IMAGE/assets/119432150/993407d3-23b3-426a-9a83-e6813b73ab42)
+![Screenshot 2024-02-23 085858](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/2a261e8d-f5fb-4a76-bb63-a09dcf09c76c)
+![Screenshot 2024-02-23 085918](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/a6e533df-a3a6-4f2d-afe3-f76b77574bf6)
+![Screenshot 2024-02-23 085933](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/a2c62f7a-e7bf-404e-8520-a399fa79f54d)
+![Screenshot 2024-02-23 085947](https://github.com/Adhithya4116/COLOR_CONVERSIONS_OF-IMAGE/assets/118707079/5aee15ce-f5e8-485d-b50f-3db1a10d0671)
 
 
 
