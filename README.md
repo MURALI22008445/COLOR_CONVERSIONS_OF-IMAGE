@@ -58,7 +58,7 @@ Register Number: 212222110007
 ### ii)Write the image
 ```Python
     import cv2
-    image=cv2.imread('dict.jpg',0)
+    image=cv2.imread('dipt1.jpg',0)
     cv2.imwrite('demos.jpg',image)
 ```
   </td>
