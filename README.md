@@ -112,6 +112,7 @@ cv2.destroyAllWindows()
 ```
 ![Screenshot 2024-09-14 113857](https://github.com/user-attachments/assets/f901af05-c41b-4d37-8500-56f691bf2616)
 
+![image](https://github.com/user-attachments/assets/a8f4c004-d0a2-47ae-a5be-3b1b7008c7d4)
 
 
 
@@ -148,8 +149,9 @@ plt.imshow(cv2.cvtColor(image_rgb_from_hsv, cv2.COLOR_BGR2RGB))
 plt.title('HSV to RGB')
 plt.axis('off')
 ```
+![image](https://github.com/user-attachments/assets/be49b576-fb65-446e-bb34-e205b9995786)
 
-![Screenshot 2024-09-14 101831](https://github.com/user-attachments/assets/7caf2bc2-1494-444a-ac6a-b1631e520d4b)
+
 
 ### iv)Access and Manipulate Image Pixels
 
@@ -164,11 +166,10 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Image with Manipulated Pixels')
 plt.axis('off')
 ```
+![Screenshot 2024-09-14 134239](https://github.com/user-attachments/assets/9e6116d3-9a1a-492d-85df-9c50204d622d)
+![Screenshot 2024-09-14 134512](https://github.com/user-attachments/assets/57e877cb-0634-408a-80c2-d12854dfeaec)
+![Screenshot 2024-09-14 134533](https://github.com/user-attachments/assets/6bb4ad06-69b7-400d-b162-46d6ea820d46)
 
-![Screenshot 2024-09-14 101259](https://github.com/user-attachments/assets/68ad884b-0ade-4e89-8bfb-4f3a9a1c3560)
-![Screenshot 2024-09-14 105920](https://github.com/user-attachments/assets/c6662ddf-e7f2-4ac4-98aa-5d8675f537b0)
-![Screenshot 2024-09-14 110041](https://github.com/user-attachments/assets/79d02fad-5076-4b1a-9700-a242fc82ecd5)
-![Screenshot 2024-09-14 110352](https://github.com/user-attachments/assets/0b2092e7-ccda-4fdd-abd5-f3bf7f0ef586)
 
 
 ### v)Image Resizing
@@ -192,7 +193,8 @@ plt.axis('off')  # Turn off the axis
 plt.show()
 
 ```
-![Screenshot 2024-09-14 111351](https://github.com/user-attachments/assets/b58e6158-f799-4d1d-9410-08439e4499f4)
+![image](https://github.com/user-attachments/assets/06a3c1dd-6d76-431a-b520-0df0122f3f0d)
+
 
 
 ### vi)Image Cropping
@@ -217,7 +219,7 @@ plt.show()  # Display the cropped image
 
 
 ```
-![Screenshot 2024-09-14 111637](https://github.com/user-attachments/assets/ee1dd366-906a-4898-a6c2-1b0816479a96)
+![image](https://github.com/user-attachments/assets/3a96eaa6-12d2-4985-ba83-3f11bd6ef127)
 
 
 ### vii)Image Flipping
@@ -252,7 +254,8 @@ plt.show()
 
 ```
 
-![Screenshot 2024-09-14 112408](https://github.com/user-attachments/assets/79c8a4ae-4792-4a88-abd2-c3f0c2915def)
+![image](https://github.com/user-attachments/assets/964f8251-45f6-43e4-a980-54808dea5101)
+![image](https://github.com/user-attachments/assets/50856ed3-0652-4c87-86fe-c606853c9718)
 
 
 
